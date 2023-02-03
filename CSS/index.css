@@ -1,0 +1,100 @@
+﻿@charset "utf-8";
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:wheat;
+    height:900px;
+}
+.head{
+    font-family:华文新魏;
+    font-size:50px;
+    padding-top:10px;
+    padding-left:20px;
+}
+.main-body{
+    margin-left:70px;
+    margin-top:20px;
+    width:1100px;
+    height:800px;
+    border-style:double;
+    border-radius:10px;
+    position:relative;
+    background-color:white;
+}
+.p1 {
+    margin-left: 35px;
+    margin-top: 35px;
+    width:300px;
+    height:700px;
+}
+.p1-1{
+    margin-left:20px;
+    width:700px;
+    height:790px;
+}
+.p1,.p1-1{
+    float:left;
+}
+.p2,.p3,.p4,.p5{
+    margin-left:35px;
+    margin-top:35px;
+    width:300px;
+    float:left;
+    height:350px;
+}
+.p1-photo {
+    width: 300px;
+    height: 685px;
+    animation: p1-photo 10s infinite;
+}
+@keyframes p1-photo{
+    0%{
+        background-image:url(../image/index/photo1.jpg);
+    }
+    25% {
+        background-image: url(../image/index/photo2.jpg);
+    }
+    50% {
+        background-image: url(../image/index/photo3.jpg);
+    }
+    75% {
+        background-image: url(../image/index/photo4.jpg);
+    }
+    100% {
+        background-image: url(image/index/photo5.jpg);
+    }
+}
+.p1-photo img {
+    width: 300px;
+    height: 685px;
+    border-radius: 10px;
+    border: solid;
+}
+.p2-photo img, .p3-photo img, .p4-photo img, .p5-photo img {
+    width: 300px;
+    height: 300px;
+    border-radius:10px;
+    border:solid;
+}
+.p2-photo img:hover, .p3-photo img:hover, .p4-photo img:hover, .p5-photo img:hover{
+    width:320px;
+    height:320px;
+    border-radius:10px;
+} 
+.p1-text, .p2-text, .p3-text, .p4-text, .p5-text {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-family: 华文新魏;
+    font-size: 25px;
+}
+.p1-text a, .p2-text a, .p3-text a, .p4-text a, .p5-text a {
+    text-decoration: none;
+}
+    .p1-text a:hover, .p2-text a:hover, .p3-text a:hover, .p4-text a:hover, .p5-text a:hover {
+        color: brown;
+        background-color:aliceblue;
+    }

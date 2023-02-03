@@ -1,0 +1,90 @@
+﻿@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: wheat;
+    height:1200px;
+}
+.head {
+    font-family: 华文新魏;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-bottom: double;
+    border-color: black;
+}
+
+.return {
+    font-family: 华文新魏;
+    font-size: 22px;
+    margin-top: 15px;
+    background-color: rgb(201,176,162);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+    .return a {
+        text-decoration: none;
+    }
+
+        .return a:hover {
+            color: azure;
+        }
+.main-body {
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 1100px;
+    height: 1000px;
+    border-style: double;
+    border-radius: 10px;
+    position: relative;
+    background-color: antiquewhite;
+}
+.area {
+    float:left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+.photo{
+    width:300px;
+    height:300px;
+}
+    .photo img {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        border: solid;
+    }
+.photo img:hover{
+    width:305px;
+    height:305px;
+    border-radius:10px;
+}
+.text{
+    width:300px;
+    height:140px;
+    margin-top:10px;
+    border:groove 5px;
+    border-radius:10px;
+    background-color:white;
+}
+.title{
+    text-align:center;
+    font-family:华文新魏;
+    font-size:25px;
+    font-weight:bold;
+}
+.content{
+    font-family:楷体;
+    font-size:20px;
+
+}
